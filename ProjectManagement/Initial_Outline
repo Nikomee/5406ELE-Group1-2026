@@ -1,0 +1,55 @@
+# Initial Outline
+### Add-on Ideas
+
+- Line-following
+- Camera
+- Wireless Communication
+- Terrain-capable
+- PID Control Line Following (other control tasks too)
+- "Rover" - Autonomous
+- Dead reckoning
+- Kinematics model
+- Mecanum/Omniwheels (let's you go weird directions)
+- Terrain Mapping - Object Avoidance
+- 3D-print chassis
+- CAD Model
+
+### Project Requirements
+### Project Management
+- Tasks
+- Responsibilities
+- Risks to Tasks and Project
+- Gantt Chart
+- Project Plan
+
+### Robot Requirements
+- Power supply and monitoring
+- Chassis body
+- Software algorithm, control, telemetry
+- Motor Driver board
+- Matlab/Simulink simulations
+- Storage or memory for camera
+- Sensors for goals (IMU, Accelerometer, Proximity/Ultrasonic)
+- Telemetry and communication
+
+### Goal statement
+Create an autonomous robot capable of exploring, navigating and mapping/ terrain with obstructions.
+
+### Deadlines
+13 February Project Proposal
+28 March Last day before Spring break
+15 April Presentation Day
+Questions
+2 motor limit
+Microprocessor vs More powerful computer board (AI)
+Battery (9V)
+
+### Links we looked at
+- https://docs.arduino.cc/hardware/motor-shield-rev3/ (Arduino motor shield)
+- https://www.st.com/resource/en/datasheet/l298.pdf (Popular H-bridge IC used in motor shield)
+- Mediapipe/OpenCV (For AI object recognition)
+- https://coretecrobotics.co.uk/products/tiny-4wd-robot-kit (Personal 4-wheel robot I have at home for testing. Can have camera mounted)
+- https://control.ros.org/rolling/doc/ros2_controllers/doc/mobile_robot_kinematics.html#differential-drive-robot (Kinematic Analysis - 2 wheel robot)
+- https://link.springer.com/book/10.1007/978-1-84628-642-1 (Textbook reference for Kinematics)
+- https://en.wikipedia.org/wiki/Dead_reckoning (Dead Reckoning concept)
+- Omni/mechanum wheels (Allow for side-to-side movement, mechanum can go diagonal)
